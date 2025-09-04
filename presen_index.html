@@ -7,8 +7,10 @@
     <link rel="stylesheet" type="text/css" href = "presen_style.css"/>
     <title>伯方島クイズ</title>
     <div id="pageTitle">
-      <h1 id="hakata">伯方島クイズ</h1>
-      <h4 id="subtitle">~このページでは伯方島に関するクイズに回答することができます。みんなで伯方島についてもっと知ろう！~</h4>
+      <header>
+        <h1 id="maintitle">伯方島クイズ</h1>
+        <h4 id="subtitle">~このページでは伯方島に関するクイズに回答することができます。みんなで伯方島についてもっと知ろう！~</h4>
+      </header>
     </div>
 </head>
 
@@ -26,11 +28,14 @@
 </div>
 <p>
   <button id="button1"
+          type="button"
           onclick="clickedButton()">
     回答する
   </button>
 </p>
 <div id="answer1"></div>
+
+<img src="IMG_1956.jpeg"  alt="オレンジ色に光る夕日と、海が写っている">
 
 <div id="prob2">
     <h1 id="problem2">第2問</h1>
@@ -39,7 +44,6 @@
  <form id="quiz2"> 
   <ul>
     <label><input type="radio" id="choice1" name="howManyPeople" value="6,915"/>6,915人</label>
-    
     <label><input type="radio" id="choice2" name="howManyPeople" value="5,715"/>5,715人</label>
     <label><input type="radio" id="choice3" name="howManyPeople" value="4,515"/>4,515人</label>
     <label><input type="radio" id="choice4" name="howManyPeople" value="3,315"/>3,315人</label>
@@ -53,8 +57,30 @@
  </form>
  <div id="answer2"></div>
 
+ <img src="IMG_4919.jpeg"  alt="漁船がたくさん浮かぶ港町の風景">
 
 <script src="presen_script.js"></script>
+
+<div id="prob3">
+    <h1 id="problem3">第3問</h1>
+    <h3 id="context3">全国的な知名度を誇る伯方の塩。伯方の塩に関して間違っているものを選んでください。（間違っていない場合すべて正しいを選択してください）</h3>
+  </div>
+ <form id="quiz3"> 
+  <ul>
+    <label><input type="radio" id="choice5" name="saltOfHakata" value="factory"/>伯方の塩工場は伯方島にない</label><br>
+    <label><input type="radio" id="choice6" name="saltOfHakata" value="import"/>伯方の塩は半分以上海外から輸入している</label><br>
+    <label><input type="radio" id="choice7" name="saltOfHakata" value="souvenir"/>伯方の塩を使ったソフトクリームやラーメンが特産品になっている</label><br>
+    <label><input type="radio" id="choice8" name="saltOfHakata" value="correct"/>すべて正しい</label>
+    <br>
+    <button id="button3"
+            type="button"
+            onclick="buttonClick2()">
+    回答する
+  </button>
+  </ul>
+ </form>
+ <div id="answer3"></div>
+<div id="final">回答していただきありがとうございました！</div>
 
 </body>
 </html>
