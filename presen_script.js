@@ -22,3 +22,13 @@ function buttonClick(){
     }
 }
 
+function buttonClick2(){
+    let input = document.querySelector('input[name="saltOfHakata"]:checked')
+    let output = document.getElementById("answer3")
+
+    if (input.value === "correct"){
+        output.innerHTML = "正解です！"
+    } else {
+        output.innerHTML = "不正解です！"
+    }
+}
