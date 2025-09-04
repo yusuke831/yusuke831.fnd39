@@ -1,7 +1,17 @@
-#pageTitle{
-   width: 100%;
-   text-align: center;
-   background-color: aqua;
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: 100;
+}
+
+body{
+    background-color: rgb(244, 233, 220);
+    margin-top: 10%;
 }
 
 #prob1{
@@ -27,7 +37,7 @@ p{
     margin-top: 1.5%;
 }
 
-#context1{
+h3{
     text-align: left;
     margin-top: 2%;
     font-size: 25px;
@@ -46,10 +56,7 @@ p{
     
 }
 
-#context2{
-    text-align: left;
-    font-size: 25px;
-}
+
 
 ul{
     margin-left: 22.5%;
@@ -98,4 +105,45 @@ ul{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: red;
+}
+
+img{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
+#prob3{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+}
+
+#button3{
+    margin-top: 25px;
+}
+
+#answer3{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+
+#final{
+    margin-top: 70px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#textbox{
+    width: 400px;
+    height: 30px;
 }
